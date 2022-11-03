@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="marginXSmall">2dp</dimen>
+    <dimen name="marginSmall">4dp</dimen>
+    <dimen name="marginMedium">8dp</dimen>
+    <dimen name="marginLarge">16dp</dimen>
+    <dimen name="marginXLarge">24dp</dimen>
+
+    <dimen name="textSizeSmall">10sp</dimen>
+    <dimen name="textSizeMedium">12sp</dimen>
+    <dimen name="textSizeLarge">14sp</dimen>
+    <dimen name="textSizeXLarge">17sp</dimen>
+    <dimen name="textSizeXXLarge">20sp</dimen>
+    <dimen name="iconSize">20dp</dimen>
+    <dimen name="progressSize">50dp</dimen>
+</resources>

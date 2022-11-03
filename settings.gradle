@@ -1,0 +1,50 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+        maven { url "https://jitpack.io"
+            allowInsecureProtocol = true
+        }
+
+        maven {
+            url 'https://maven.google.com/'
+            allowInsecureProtocol = true
+            name 'Google'
+        }
+        maven {
+            url 'https://maven.google.com/'
+            allowInsecureProtocol = true
+        }
+        mavenCentral {
+            url "https://jcenter.bintray.com/"
+            allowInsecureProtocol = true
+        }
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven { url "https://jitpack.io"
+            allowInsecureProtocol = true
+        }
+
+        maven {
+            url 'https://maven.google.com/'
+            allowInsecureProtocol = true
+            name 'Google'
+        }
+        maven {
+            url 'https://maven.google.com/'
+            allowInsecureProtocol = true
+        }
+        mavenCentral {
+            url "https://jcenter.bintray.com/"
+            allowInsecureProtocol = true
+        }
+    }
+}
+rootProject.name = "Bitex"
+include ':app'

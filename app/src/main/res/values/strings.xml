@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Bitex</string>
+    <string name="exchange">Exchange</string>
+    <string name="margin">Margin</string>
+    <string name="futures">Futures</string>
+    <string name="cross">Cross</string>
+    <string name="founding_rate">Founding Rate</string>
+    <string name="next_payment_in">Next Payment In</string>
+    <string name="price_usdt">Price (USDT)</string>
+    <string name="open_orders">Open Orders</string>
+    <string name="positions">Positions</string>
+    <string name="limit">Limit</string>
+    <string name="amount">Amount</string>
+    <string name="price">Price</string>
+    <string name="cancel">Cancel</string>
+    <string name="sell">Sell</string>
+    <string name="limit_order">Limit Order</string>
+    <string name="available">Available</string>
+    <string name="post_only">Post Only</string>
+    <string name="reduce_only">Reduce Only</string>
+    <string name="cost">Cost</string>
+</resources>

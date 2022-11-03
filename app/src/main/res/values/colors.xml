@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="yellow">#fbd434</color>
+    <color name="red">#AC3229</color>
+    <color name="green">#2ebd85</color>
+    <color name="grayLight">#909AA8</color>
+    <color name="grayDark">#464a53</color>
+    <color name="cardDark">#12151f</color>
+    <color name="cardLight">#252E3C</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="greenTextColor">#4CAF50</color>
+    <color name="greenProgressBar">#2B612D</color>
+    <color name="redTextColor">#DD3C30</color>
+    <color name="redProgressBar">#7E221C</color>
+</resources>
