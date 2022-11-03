@@ -23,6 +23,7 @@ class MainActivity : AppCompatActivity(),View.OnClickListener {
     private enum class State{
         BUY,SELL
     }
+
     private var state= BUY
     private val viewModel : MainViewModel by  viewModels()
 
@@ -69,7 +70,7 @@ class MainActivity : AppCompatActivity(),View.OnClickListener {
 
                 }
                 is Success -> {
-                    Toast.makeText(this,"Success",Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this,"Success: ${res.data}",Toast.LENGTH_SHORT).show()
 
                 }
             }

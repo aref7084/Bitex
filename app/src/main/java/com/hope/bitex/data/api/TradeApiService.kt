@@ -1,5 +1,6 @@
 package com.hope.bitex.data.api
 
+import com.hope.bitex.data.model.BuyResponseModel
 import retrofit2.http.*
 
 interface TradeApiService {
@@ -9,6 +10,6 @@ interface TradeApiService {
     suspend fun trade(
         @Field("token") token : String,
         @Field("amount") amount : String
-    ): Any
+    ): BuyResponseModel
 
 }

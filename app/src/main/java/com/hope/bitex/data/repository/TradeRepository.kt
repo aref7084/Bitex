@@ -2,6 +2,7 @@ package com.hope.bitex.data.repository
 
 import com.hope.bitex.data.api.TradeApiService
 import com.hope.bitex.data.callApi
+import com.hope.bitex.data.model.BuyResponseModel
 import javax.inject.Inject
 import javax.inject.Singleton
 
