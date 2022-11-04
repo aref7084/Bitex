@@ -1,17 +1,18 @@
 package com.hope.bitex.data
 
+import kotlinx.coroutines.flow.channelFlow
 import kotlinx.coroutines.flow.flow
 
-suspend fun <T> callApi(api: suspend () -> T)= flow<ResponseModel<T>> {
+suspend fun <T> callApi(api: suspend () -> T)= channelFlow <ResponseModel<T>> {
 
-    emit(ResponseModel.Loading())
+  //  send(ResponseModel.Loading())
     try {
         val response=api.invoke()
-        emit(ResponseModel.Success(response))
+        send(ResponseModel.Success(response))
 
     } catch (e: Exception) {
 
-        emit(ResponseModel.Error(e))
+        send(ResponseModel.Error(e))
 
     }
 
